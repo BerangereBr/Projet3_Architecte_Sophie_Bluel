@@ -1,0 +1,137 @@
+body {
+    max-width: 1140px;
+    background-color: #FFFEF8;
+    margin: auto;
+    font-family: 'Work Sans';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Syne';
+    font-size: 22px;
+    font-weight: 800;
+    color: #B1663C
+}
+
+h1>span {
+    font-family: 'Work Sans';
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 30px;
+    color: #1D6154;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+nav li {
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #B1663C;
+}
+
+#login {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divWrongLogin{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.wrongLogin {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #3D3D3D;
+}
+
+form input {
+    border: none;
+}
+
+form div input {
+    box-shadow: 0px 4px 14px 0px #00000017;
+    width: 379px;
+    height: 45px;
+}
+
+form #submit {
+    font-family: 'Syne';
+    background: #1D6154;
+    color: white;
+    border-radius: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form p {
+    color: #3D3D3D;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+footer nav ul {
+    margin: 2em;
+    font-size: 14px;
+}
