@@ -263,6 +263,7 @@ a:hover {
 	text-decoration: none;
 	color: black;
 	cursor: pointer;
+	gap: 10px;
 }
 
 #modalDelete {
@@ -375,7 +376,7 @@ a:hover {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 16px;
+	margin-top: 10px;
 	width: 100%;
 }
 

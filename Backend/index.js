@@ -82,7 +82,8 @@ function editPage() {
         logout.innerText = 'logout';
     } else {
         edition.classList.add('hidden');
-        tagEdit.classList.add('hidden')
+        tagEdit.classList.add('hidden');
+        displayButtonFilterList(categoryList)
     }
 }
 
@@ -314,7 +315,6 @@ async function selectCategories() {
 
 const categoryList = getCategoryList(workList);
 displayWorkList(workList);
-displayButtonFilterList(categoryList);
 const token = localStorage.getItem('token');
 editPage();
 clickForOpenModal();
